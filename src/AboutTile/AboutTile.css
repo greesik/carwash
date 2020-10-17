@@ -5,6 +5,17 @@
 
 .about-tile {
     height: 200px;
-    width: 700px;
-    border: 2px solid black;
+    width: 500px;
+    /*border: 2px solid black;*/
+    box-shadow: 4px 4px 4px #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 40px;
+    padding: 0 100px 0 100px;
+}
+
+.about-tile-icon {
+    height: 50%;
+    width: 50%;
 }

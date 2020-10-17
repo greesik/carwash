@@ -6,6 +6,7 @@
 #about {
     height: 1500px;
     background: #F4F4F4;
+    padding-bottom: 75px;
 }
 
 .about-container {
@@ -14,8 +15,8 @@
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    margin: 0 75px;
-    background: rgba(0, 0, 0, 0.25);
+    margin: 0 75px 0 75px;
+    /*background: rgba(0, 0, 0, 0.25);*/
 }
 
 .dots {
@@ -44,7 +45,46 @@
     background: #1A1C20;
 }
 
-.tile-left {
-    left: 100px;
+.invisible-left {
+    width: 0%;
+    height: 100%;
 }
 
+.invisible-right {
+    width: 0%;
+    height: 100%;
+}
+
+.tile-left {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tile-right {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tile-1 > .react-reveal > .about-tile > .about-tile-icon {
+    background: url("../img/pngfind.com-clock-icon-png-492180.png") no-repeat;
+    background-size: contain;
+}
+
+.tile-2 > .react-reveal > .about-tile > .about-tile-icon {
+    background: url("../img/pngfind.com-system-icon-png-4185448.png") no-repeat;
+    background-size: contain;
+}
+
+.tile-3 > .react-reveal > .about-tile > .about-tile-icon {
+    background: url("../img/pngfind.com-car-png-icon-1896112.png") no-repeat;
+    background-size: contain;
+}
+
+.why-us {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}

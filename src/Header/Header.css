@@ -6,6 +6,9 @@
 .header {
     height: 100px;
     background: #F0A500;
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 .header-container {
@@ -28,5 +31,9 @@
 }
 
 .anchor {
+    text-decoration: none;
+}
+
+a:-webkit-any-link{
     text-decoration: none;
 }

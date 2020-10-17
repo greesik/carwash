@@ -7,13 +7,15 @@ const About = () => {
     return (
         <section id={"about"}>
             <div className={"about-container"}>
-                <div className="tile-left">
-                <Fade left>
+                <h2 className={"why-us"}>Dlaczego my?</h2>
+                <div className="tile-left tile-1">
 
+                    <Fade left>
                         <AboutTile title={"Czas to pieniądz."} description={"1 zł = pełne 60 sekund."}/>
+                    </Fade>
+                    <div className="invisible-left"></div>
+                </div>
 
-                </Fade>
-                </div>
                 <div className="dots">
                     <Fade>
                         <div className="dot dot-1"></div>
@@ -25,16 +27,15 @@ const About = () => {
                         <div className="dot dot-3"></div>
                     </Fade>
                 </div>
-                <Fade right>
-                    <div className={"about-2"}>
-                        <div className={"paypass-wrapper"}>
-                            <div className={"paypass-1"}></div>
-                            <div className={"paypass-2"}></div>
-                            <div className={"paypass-3"}></div>
-                        </div>
-                        <AboutTile title={"Pik-pik!"} description={"Nie szukaj gotówki."}/>
-                    </div>
-                </Fade>
+
+                <div className="tile-right tile-2">
+                    <div className="invisible-right"></div>
+                    <Fade right>
+                            <AboutTile title={"Pik-pik!"} description={"Nie szukaj gotówki."}/>
+                    </Fade>
+
+                </div>
+
                 <div className="dots">
                     <Fade>
                         <div className="dot dot-1"></div>
@@ -46,9 +47,14 @@ const About = () => {
                         <div className="dot dot-3"></div>
                     </Fade>
                 </div>
-                <Fade left>
-                    <AboutTile title={"Przyjedź z kolegami."} description={"5 stanowisk czeka w gotowości."}/>
-                </Fade>
+
+                <div className="tile-right tile-3">
+
+                    <Fade left>
+                        <AboutTile title={"Przyjedź z kolegami."} description={"5 stanowisk czeka w gotowości."}/>
+                    </Fade>
+                    <div className="invisible-left"></div>
+                </div>
 
             </div>
         </section>
