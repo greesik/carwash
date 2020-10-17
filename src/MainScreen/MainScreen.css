@@ -12,5 +12,18 @@
 .main-screen-container {
     height: 100%;
     margin: 0 75px;
-    background: rgba(0, 0, 0, 0.25);
+    /*background: rgba(0, 0, 0, 0.25);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-wash-logo {
+    color: white;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px #282c34;
+}
+
+.car-wash-logo-detail {
+    color: #F0A500;
 }

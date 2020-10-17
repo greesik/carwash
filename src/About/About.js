@@ -5,11 +5,15 @@ import AboutTile from "../AboutTile/AboutTile";
 
 const About = () => {
     return (
-        <section className={"about"}>
+        <section id={"about"}>
             <div className={"about-container"}>
+                <div className="tile-left">
                 <Fade left>
-                    <AboutTile title={"Czas to pieniądz"} description={"1 zł = pełne 60 sekund"}/>
+
+                        <AboutTile title={"Czas to pieniądz."} description={"1 zł = pełne 60 sekund."}/>
+
                 </Fade>
+                </div>
                 <div className="dots">
                     <Fade>
                         <div className="dot dot-1"></div>
@@ -28,7 +32,7 @@ const About = () => {
                             <div className={"paypass-2"}></div>
                             <div className={"paypass-3"}></div>
                         </div>
-                        <AboutTile title={"Pik-pik!"} description={"Nie szukaj gotówki"}/>
+                        <AboutTile title={"Pik-pik!"} description={"Nie szukaj gotówki."}/>
                     </div>
                 </Fade>
                 <div className="dots">
@@ -43,7 +47,7 @@ const About = () => {
                     </Fade>
                 </div>
                 <Fade left>
-                    <AboutTile title={"Przyjedź z kolegami"} description={"5 stanowisk czeka w gotowości"}/>
+                    <AboutTile title={"Przyjedź z kolegami."} description={"5 stanowisk czeka w gotowości."}/>
                 </Fade>
 
             </div>

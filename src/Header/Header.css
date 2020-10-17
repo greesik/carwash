@@ -11,5 +11,22 @@
 .header-container {
     height: 100%;
     margin: 0 75px;
-    background: rgba(0, 0, 0, 0.25);
+    /*background: rgba(0, 0, 0, 0.25);*/
+}
+
+.navbar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-element {
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.anchor {
+    text-decoration: none;
 }

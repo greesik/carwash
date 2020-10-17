@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.about {
+#about {
     height: 1500px;
     background: #F4F4F4;
 }
@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     height: 100%;
     margin: 0 75px;
     background: rgba(0, 0, 0, 0.25);
@@ -41,5 +42,9 @@
 
 .dot-3 {
     background: #1A1C20;
+}
+
+.tile-left {
+    left: 100px;
 }
 
