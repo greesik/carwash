@@ -5,5 +5,12 @@
 
 .main-screen {
     height: calc(100vh - 100px);
-    background: dodgerblue;
+    background: url("../img/myjnia-foto.jpg") no-repeat;
+    background-size: cover;
+}
+
+.main-screen-container {
+    height: 100%;
+    margin: 0 75px;
+    background: rgba(0, 0, 0, 0.25);
 }

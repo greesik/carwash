@@ -7,3 +7,21 @@
     height: 700px;
     background: #CF7500;
 }
+
+.contact-container {
+    height: 100%;
+    margin: 0 75px;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.inputs-terms-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}

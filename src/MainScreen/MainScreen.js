@@ -4,7 +4,9 @@ import "./MainScreen.css";
 const MainScreen = () => {
     return (
         <section className={"main-screen"}>
-            MainScreen
+            <div className={"main-screen-container"}>
+                Main Screen
+            </div>
         </section>
     );
 };
