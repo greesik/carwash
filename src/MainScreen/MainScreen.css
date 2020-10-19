@@ -24,6 +24,12 @@
     text-shadow: 2px 2px 5px #282c34;
 }
 
+@media (max-width: 770px) {
+    .car-wash-logo {
+        font-size: 50px;
+    }
+}
+
 .car-wash-logo-detail {
     color: #F0A500;
 }

@@ -37,3 +37,15 @@
 a:-webkit-any-link{
     text-decoration: none;
 }
+
+@media (max-width: 770px) {
+    .navbar {
+        justify-content: center;
+    }
+    .nav-element {
+        margin: 10px;
+    }
+    .header-container {
+        margin: 0 10px;
+    }
+}
