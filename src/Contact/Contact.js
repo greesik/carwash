@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import "./Contact.css"
+import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
 
@@ -21,14 +22,16 @@ const Contact = () => {
     return (
         <section id={"contact"}>
             <div className="contact-container">
-                <div>Masz pytania? Śmiało!</div>
+                <div className={"contact-title"}>Masz pytania? Śmiało!</div>
                 <div className={"inputs-terms-container"}>
+                    <Fade left cascade>
                     <div className={"inputs-container"}>
-                        <input type="text" value={name} onChange={handleNameChange}/>
-                        <input type="email" value={email} onChange={handleEmailChange}/>
-                        <input type="tel" value={phone} onChange={handlePhoneChange} pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
-                        <button type={"submit"}>Wyślij</button>
+                        <input className={"contact-input"} type="text" value={name} onChange={handleNameChange} placeholder={"Imię i nazwisko"}/>
+                        <input className={"contact-input"} type="email" value={email} onChange={handleEmailChange} placeholder={"E-mail"}/>
+                        <input className={"contact-input"} type="tel" value={phone} onChange={handlePhoneChange} placeholder={"Numer telefonu"} pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                        <button className={"contact-button"} type={"submit"}>Wyślij</button>
                     </div>
+                    </Fade>
                     <div className={"terms-container"}>
                         <div className={"terms"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cum, dignissimos fuga incidunt laudantium mollitia nesciunt nisi optio voluptas voluptates.</div>
                         <input type="checkbox"/>

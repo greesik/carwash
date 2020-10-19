@@ -7,7 +7,7 @@
     height: 100px;
     background: #F0A500;
     position: sticky;
-    top: 0;
+    top: -1px;
     z-index: 3;
 }
 
@@ -25,13 +25,24 @@
 }
 
 .nav-element {
-    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 120px;
+    margin: 20px;
+    /*margin-right: 40px;*/
     color: white;
     text-decoration: none;
 }
 
+.nav-element:hover {
+    background: rgba(0, 0, 0, 0.25);
+}
+
 .anchor {
     text-decoration: none;
+    height: 100%;
 }
 
 a:-webkit-any-link{

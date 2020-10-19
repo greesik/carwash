@@ -88,3 +88,9 @@
     align-items: center;
     font-size: 50px;
 }
+
+@media (max-width: 500px) {
+    .why-us {
+        font-size: 25px;
+    }
+}
