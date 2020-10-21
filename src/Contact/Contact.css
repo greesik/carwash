@@ -27,6 +27,7 @@
     height: 80%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .inputs-container {
@@ -40,7 +41,31 @@
 .terms-container {
     width: 50%;
     margin: 40px;
-    display: flex;
+    position: relative;
+}
+
+.terms-container::before {
+    content: "";
+    display: block;
+    height: 300px;
+    width: 1px;
+    top: -20px;
+    left: -35px;
+    position: absolute;
+    background: #FFFFFF;
+
+}
+
+.checkbox-wrapper {
+    text-align: left;
+}
+
+.terms-label {
+    text-align: left;
+    width: 200px;
+    color: #FFFFFF;
+    font-size: 20px;
+    align-self: center;
 }
 
 ::placeholder {
@@ -78,6 +103,12 @@
     }
     .inputs-container {
         align-items: center;
+    }
+    .terms-label {
+        font-size: 15px;
+    }
+    .terms-container::before {
+        content: none;
     }
 }
 

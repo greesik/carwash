@@ -56,13 +56,13 @@
 }
 
 .tile-left {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
 .tile-right {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }

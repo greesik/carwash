@@ -33,8 +33,11 @@ const Contact = () => {
                     </div>
                     </Fade>
                     <div className={"terms-container"}>
-                        <div className={"terms"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cum, dignissimos fuga incidunt laudantium mollitia nesciunt nisi optio voluptas voluptates.</div>
-                        <input type="checkbox"/>
+                        <div className="terms-label">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto, aspernatur, consectetur consequatur consequuntur corporis cumque dolorum ea enim eum facere fugiat impedit.</div>
+                        <div className={"checkbox-wrapper"}>
+                            <input type="checkbox" id={"terms"} checked={true}/>
+                            <label for={"terms"}>Akceptuję warunki</label>
+                        </div>
                     </div>
                 </div>
             </div>
