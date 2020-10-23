@@ -5,11 +5,36 @@
 
 .footer {
     height: 150px;
-    background: #1A1C20;
+    background: lightgray;
 }
 
 .footer-container {
     height: 100%;
     margin: 0 75px;
-    background: rgba(0, 0, 0, 0.25);
+    /*background: rgba(0, 0, 0, 0.25);*/
+    display: flex;
+}
+
+.made-by {
+    color: #FFFFFF;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    height: 50px;
+    width: 50px;
+    background-color: #FFFFFF;
+}
+
+.linkedin {
+    background: url("../img/linkedin.png") no-repeat;
+    background-size: contain;
+}
+
+.github {
+    background: url("../img/GitHub-Mark-120px-plus.png") no-repeat;
+    background-size: contain;
 }
